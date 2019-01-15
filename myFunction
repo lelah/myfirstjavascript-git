@@ -1,0 +1,9 @@
+//This makes he button in my index work
+
+function myFunction () {
+document.getElementById('demo').innerHTML = "Paragraph Changed";
+}
+
+function mathFunction (x,y) {
+ return x+y
+}
