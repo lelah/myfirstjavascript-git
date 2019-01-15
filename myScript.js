@@ -4,20 +4,12 @@ function myFunction () {
 document.getElementById('demo').innerHTML = "Paragraph Changed";
 }
 
-//Defining variables
+//This makes he button in my index work
 
-//var x = 5;
-//var y = 6;
-//var z = x + y;
+function myFunction () {
+document.getElementById('demo').innerHTML = "Paragraph Changed";
+}
 
-var x, y, z;
-x = 5;
-y = 6;
-z = x + y;
-
-//This function helps determine what the variables equal.
-
-function mathFunction () {
- document.getElementById('math').innerHTML = 
- z;
+function mathFunction (x,y) {
+ return x+y;
 }
